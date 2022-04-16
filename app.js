@@ -4,7 +4,7 @@ while (!isNaN(userName) || userName == "") {
 }
 let currentYear = 2022;
 let userYear = +prompt(userName + " Tug'ilgan Yilingizni Kiriting");
-while (isNaN(userYear) || userYear == "" || userYear <= 2000 || userYear >= 2010) {
+while (isNaN(userYear) || userYear == "" || userYear >= 2010) {
     userYear = +prompt(userName + " Tug'ilgan Yilingizi Kiriting")
 }
 
